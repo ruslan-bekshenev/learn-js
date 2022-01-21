@@ -13,7 +13,7 @@
 ### Примеры
 
 <ul>
-  <li>V8</b> -  Chrome и Opera</li>
+  <li><b>V8</b> -  Chrome и Opera</li>
   <li><b>SpiderMonkey</b> - Firefox</li>
   <li><b>ChakraCore</b> - Microsoft Edge</li>
   <li><b>Nitro</b> и <b>SquarrelFish</b> - Safari</li>
