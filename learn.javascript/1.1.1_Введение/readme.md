@@ -12,16 +12,20 @@
 
 ### Примеры
 
-**V8** -  Chrome и Opera
-**SpiderMonkey** - Firefox
-**ChakraCore** - Microsoft Edge
-**Nitro** и **SquarrelFish** - Safari
-**Trident** и **Chakra** - IE
+<ul>
+  <li>**V8** -  Chrome и Opera</li>
+  <li>**SpiderMonkey** - Firefox</li>
+  <li>**ChakraCore** - Microsoft Edge</li>
+  <li>**Nitro** и **SquarrelFish** - Safari</li>
+  <li>**Trident** и **Chakra** - IE</li>
+</ul>
+
 
 ### Как работают движки?
-
-1. Движок считывает javascript-код
-2. Далее переводит его в машинный код
-3. После этого машинный код запускается
+<ol>
+  <li>Движок считывает javascript-код</li>
+  <li>Далее переводит его в машинный код</li>
+  <li>После этого машинный код запускается</li>
+</ol>
 
 Также движок применяет оптимизацию на каждом этапе. Также он просматривает скомпилированный код во время его работы, анализирует данные и также применяет оптимизацию к машинному код, из-за чего скрипты работают достаточно быстро.
