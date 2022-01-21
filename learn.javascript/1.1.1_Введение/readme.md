@@ -13,11 +13,11 @@
 ### Примеры
 
 <ul>
-  <li>**V8** -  Chrome и Opera</li>
-  <li>**SpiderMonkey** - Firefox</li>
-  <li>**ChakraCore** - Microsoft Edge</li>
-  <li>**Nitro** и **SquarrelFish** - Safari</li>
-  <li>**Trident** и **Chakra** - IE</li>
+  <li>V8</b> -  Chrome и Opera</li>
+  <li><b>SpiderMonkey</b> - Firefox</li>
+  <li><b>ChakraCore</b> - Microsoft Edge</li>
+  <li><b>Nitro</b> и <b>SquarrelFish</b> - Safari</li>
+  <li><b>Trident</b> и <b>Chakra</b> - IE</li>
 </ul>
 
 
