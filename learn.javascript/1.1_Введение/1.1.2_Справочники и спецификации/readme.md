@@ -37,3 +37,5 @@
     </b>
   </li>
 </ul>
+
+источник https://learn.javascript.ru/manuals-specifications
