@@ -3,8 +3,7 @@ let words = ['grapefruit', 'banana','banana', 'grapefruit', 'banana', 'orange', 
 
 function uniqueSort(arr) {
   const uniqueObject = arr.reduce((acc, item) => ({ ...acc, [item]: (acc[item] || 0) + 1 }), {})
-  const sortValues = Object.keys(uniqueObject).sort((a,b) => uniqueObject[b] - uniqueObject[a])
-  return sortValues
+  return Object.keys(uniqueObject).sort((a,b) => uniqueObject[b] - uniqueObject[a])
 }
 
 console.log(uniqueSort(words))
