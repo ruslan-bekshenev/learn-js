@@ -1,3 +1,3 @@
 function solution(word) {
-  return word.replace(/([A-Z])/g, ' $1')
+  return word.replace(/([A-Z])/g, ' $Isograms')
 }
