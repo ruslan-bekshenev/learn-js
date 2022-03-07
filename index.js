@@ -1,9 +1,24 @@
-function XO(str) {
-  const xLength = (str.match(/x/g) || []).length
-  const oLength = (str.match(/o/g) || []).length
-  return xLength === oLength
-}
+let user = {
+  name: "John",
+  surname: "Smith",
 
-console.log(XO('xoxo'))
-console.log(XO('xoxoo'))
-console.log(XO('zpzpx'))
+  set fullName(value) {
+    [this.name, this.surname] = value.split(" ");
+  },
+
+  get fullName() {
+    return `${this.name} ${this.surname}`;
+  }
+};
+
+let admin = {
+  __proto__: user,
+  isAdmin: true
+};
+
+console.log(admin.fullName); // John Smith (*)
+
+// срабатывает сеттер!
+admin.fullName = "Alice Cooper"; // (**)
+console.log(admin.name); // Alice
+console.log(admin.surname); // Cooper
