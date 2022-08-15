@@ -1,3 +1,3 @@
 # learn-js
 
-Конспекты из learning.javascript
+Конспекты из learn.javascript
